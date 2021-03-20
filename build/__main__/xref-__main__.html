@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>modulegraph cross reference for __main__.py, pyi_rth_multiprocessing.py, pyi_rth_win32api.py</title>
+    <title>modulegraph cross reference for __main__.py, pyi_rth_multiprocessing.py</title>
     <style>
       .node { padding: 0.5em 0 0.5em; border-top: thin grey dotted; }
       .moduletype { font: smaller italic }
@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    <h1>modulegraph cross reference for __main__.py, pyi_rth_multiprocessing.py, pyi_rth_win32api.py</h1>
+    <h1>modulegraph cross reference for __main__.py, pyi_rth_multiprocessing.py</h1>
 
 <div class="node">
   <a name="__main__.py"></a>
@@ -156,8 +156,9 @@ imports:
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#pygetwindow">pygetwindow</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
- &#8226;   <a href="#pyi_rth_win32api.py">pyi_rth_win32api.py</a>
+ &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
@@ -169,8 +170,6 @@ imports:
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
- &#8226;   <a href="#win32api">win32api</a>
- &#8226;   <a href="#win32con">win32con</a>
 
   </div>
 
@@ -201,22 +200,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="pyi_rth_win32api.py"></a>
-  <a target="code" href="///C:/Users/marcu/AppData/Local/Programs/Python/Python39/Lib/site-packages/PyInstaller/hooks/rthooks/pyi_rth_win32api.py" type="text/plain"><tt>pyi_rth_win32api.py</tt></a>
-<span class="moduletype">Script</span>  <div class="import">
-imports:
-    <a href="#pywintypes">pywintypes</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#__main__.py">__main__.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="'java.lang'"></a>
   <a target="code" href="" type="text/plain"><tt>'java.lang'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -235,6 +218,17 @@ imported by:
 imported by:
     <a href="#copy">copy</a>
  &#8226;   <a href="#xml.sax">xml.sax</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="Quartz"></a>
+  <a target="code" href="" type="text/plain"><tt>Quartz</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pygetwindow._pygetwindow_macos">pygetwindow._pygetwindow_macos</a>
 
   </div>
 
@@ -1173,16 +1167,6 @@ imported by:
  &#8226;   <a href="#multiprocessing.process">multiprocessing.process</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#weakref">weakref</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="_win32sysloader"></a>
-  <tt>_win32sysloader</tt> <span class="moduletype"><tt>c:\users\marcu\appdata\local\programs\python\python39\lib\site-packages\win32\_win32sysloader.pyd</tt></span>  <div class="import">
-imported by:
-    <a href="#pywintypes">pywintypes</a>
 
   </div>
 
@@ -2603,6 +2587,8 @@ imported by:
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pygetwindow">pygetwindow</a>
+ &#8226;   <a href="#pyrect">pyrect</a>
  &#8226;   <a href="#queue">queue</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#shlex">shlex</a>
@@ -2925,6 +2911,7 @@ imported by:
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
  &#8226;   <a href="#multiprocessing.sharedctypes">multiprocessing.sharedctypes</a>
+ &#8226;   <a href="#pygetwindow._pygetwindow_win">pygetwindow._pygetwindow_win</a>
  &#8226;   <a href="#test.support">test.support</a>
 
   </div>
@@ -2943,6 +2930,23 @@ imports:
   <div class="import">
 imported by:
     <a href="#ctypes">ctypes</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="ctypes.wintypes"></a>
+  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/ctypes/wintypes.py" type="text/plain"><tt>ctypes.wintypes</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ctypes">ctypes</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pygetwindow._pygetwindow_win">pygetwindow._pygetwindow_win</a>
+ &#8226;   <a href="#test.support">test.support</a>
 
   </div>
 
@@ -3330,7 +3334,6 @@ imported by:
     <a href="#distutils">distutils</a>
  &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
- &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#test.support">test.support</a>
 
   </div>
@@ -3415,6 +3418,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pyrect">pyrect</a>
  &#8226;   <a href="#test.support">test.support</a>
 
   </div>
@@ -7093,7 +7097,6 @@ imported by:
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
- &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#runpy">runpy</a>
 
   </div>
@@ -7157,7 +7160,6 @@ imported by:
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
- &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#test.support">test.support</a>
  &#8226;   <a href="#zipfile">zipfile</a>
@@ -8632,7 +8634,6 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
- &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#shlex">shlex</a>
@@ -9061,21 +9062,74 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="pywintypes"></a>
-  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/site-packages/win32/lib/pywintypes.py" type="text/plain"><tt>pywintypes</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
+  <a name="pygetwindow"></a>
+  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/site-packages/pygetwindow/__init__.py" type="text/plain"><tt>pygetwindow</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
 imports:
-    <a href="#_win32sysloader">_win32sysloader</a>
- &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
- &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
- &#8226;   <a href="#importlib.util">importlib.util</a>
- &#8226;   <a href="#os">os</a>
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#pygetwindow._pygetwindow_macos">pygetwindow._pygetwindow_macos</a>
+ &#8226;   <a href="#pygetwindow._pygetwindow_win">pygetwindow._pygetwindow_win</a>
+ &#8226;   <a href="#pyrect">pyrect</a>
  &#8226;   <a href="#sys">sys</a>
 
   </div>
   <div class="import">
 imported by:
-    <a href="#pyi_rth_win32api.py">pyi_rth_win32api.py</a>
+    <a href="#__main__.py">__main__.py</a>
+ &#8226;   <a href="#pygetwindow._pygetwindow_macos">pygetwindow._pygetwindow_macos</a>
+ &#8226;   <a href="#pygetwindow._pygetwindow_win">pygetwindow._pygetwindow_win</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pygetwindow._pygetwindow_macos"></a>
+  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/site-packages/pygetwindow/_pygetwindow_macos.py" type="text/plain"><tt>pygetwindow._pygetwindow_macos</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#Quartz">Quartz</a>
+ &#8226;   <a href="#pygetwindow">pygetwindow</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pygetwindow">pygetwindow</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pygetwindow._pygetwindow_win"></a>
+  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/site-packages/pygetwindow/_pygetwindow_win.py" type="text/plain"><tt>pygetwindow._pygetwindow_win</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
+ &#8226;   <a href="#pygetwindow">pygetwindow</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pygetwindow">pygetwindow</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyrect"></a>
+  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/site-packages/pyrect/__init__.py" type="text/plain"><tt>pyrect</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#doctest">doctest</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pygetwindow">pygetwindow</a>
 
   </div>
 
@@ -9149,7 +9203,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#email.generator">email.generator</a>
+    <a href="#__main__.py">__main__.py</a>
+ &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#secrets">secrets</a>
  &#8226;   <a href="#statistics">statistics</a>
@@ -9913,8 +9968,8 @@ imported by:
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pygetwindow">pygetwindow</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
- &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#selectors">selectors</a>
@@ -10984,27 +11039,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#pydoc">pydoc</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="win32api"></a>
-  <tt>win32api</tt> <span class="moduletype"><tt>c:\users\marcu\appdata\local\programs\python\python39\lib\site-packages\win32\win32api.pyd</tt></span>  <div class="import">
-imported by:
-    <a href="#__main__.py">__main__.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="win32con"></a>
-  <a target="code" href="///C:/users/marcu/appdata/local/programs/python/python39/lib/site-packages/win32/lib/win32con.py" type="text/plain"><tt>win32con</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imported by:
-    <a href="#__main__.py">__main__.py</a>
 
   </div>
 
